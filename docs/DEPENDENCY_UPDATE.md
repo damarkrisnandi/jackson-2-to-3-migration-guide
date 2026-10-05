@@ -55,3 +55,6 @@ Run `mvn dependency:tree -Dincludes=com.fasterxml.jackson` (or `gradle dependenc
 
 ## Step 6 – Automate package renames
 OpenRewrite offers a Jackson 2→3 recipe (confirm the current recipe name in the OpenRewrite docs). Review the diff manually: mapper configuration usually needs hand-editing.
+
+## Security note
+Use the latest patched 3.x release (examples use `3.2.3`; 3.0.0 has known vulnerabilities). Each Jackson 3.x release is built against a specific `jackson-annotations` 2.x version (3.2.3 → 2.22); use at least that version, or you will get `ClassNotFoundException` for newer annotations at runtime. In Spring Boot, override with the `jackson-bom.version` property (see example 04).

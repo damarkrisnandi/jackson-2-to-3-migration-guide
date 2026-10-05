@@ -9,7 +9,7 @@
 | core / databind groupId | `com.fasterxml.jackson.core` | `tools.jackson.core` |
 | other modules groupId | `com.fasterxml.jackson.dataformat` etc. | `tools.jackson.dataformat` etc. |
 | Java packages | `com.fasterxml.jackson.core/databind/...` | `tools.jackson.core/databind/...` |
-| annotations artifact | `com.fasterxml.jackson.core:jackson-annotations` | **unchanged** (version stays 2.x, e.g. 2.20) |
+| annotations artifact | `com.fasterxml.jackson.core:jackson-annotations` | **unchanged** (version stays 2.x, e.g. 2.22) |
 | annotation package | `com.fasterxml.jackson.annotation` | **unchanged** |
 
 Databind annotations such as `@JsonSerialize`, `@JsonDeserialize`, `@JsonNaming`, `@JsonPOJOBuilder` live in `tools.jackson.databind.annotation`.

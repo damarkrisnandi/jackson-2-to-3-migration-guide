@@ -12,7 +12,7 @@ Use the Jackson BOM so versions stay aligned:
     <dependency>
       <groupId>tools.jackson</groupId>
       <artifactId>jackson-bom</artifactId>
-      <version>3.0.0</version>
+      <version>3.2.3</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
@@ -28,16 +28,16 @@ Use the Jackson BOM so versions stay aligned:
   <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-annotations</artifactId>
-    <version>2.20</version>
+    <version>2.22</version>
   </dependency>
 </dependencies>
 ```
 
 ## Step 3 – Gradle
 ```kotlin
-implementation(platform("tools.jackson:jackson-bom:3.0.0"))
+implementation(platform("tools.jackson:jackson-bom:3.2.3"))
 implementation("tools.jackson.core:jackson-databind")
-implementation("com.fasterxml.jackson.core:jackson-annotations:2.20")
+implementation("com.fasterxml.jackson.core:jackson-annotations:2.22")
 ```
 
 ## Step 4 – Mapping table

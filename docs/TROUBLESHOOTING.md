@@ -3,7 +3,7 @@
 | Symptom | Cause / Fix |
 |---|---|
 | `package com.fasterxml.jackson.databind does not exist` | Moved to `tools.jackson.databind`. |
-| `package com.fasterxml.jackson.annotation does not exist` | Add `com.fasterxml.jackson.core:jackson-annotations:2.20`; annotations did not move. |
+| `package com.fasterxml.jackson.annotation does not exist` | Add `com.fasterxml.jackson.core:jackson-annotations:2.22`; annotations did not move. |
 | `exception IOException is never thrown in body of try` | Jackson 3 throws unchecked `JacksonException`; catch that. |
 | `cannot find symbol: configure/registerModule` | Mapper is immutable; use `JsonMapper.builder()`. |
 | `cannot find symbol: JsonSerializer` | Use `ValueSerializer`; `SerializerProvider` → `SerializationContext`. |

@@ -2,7 +2,7 @@
 
 A practical guide, with compiled and runnable examples, for moving from Jackson 2.x (`com.fasterxml.jackson`) to Jackson 3.x (`tools.jackson`).
 
-> Verified with Jackson `3.0.0`, Java 17 and Spring Boot `4.0.0`. Always cross-check against the [official Jackson 3 release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-3.0).
+> Verified with Jackson `3.2.3`, Java 17 and Spring Boot `4.0.0`. Always cross-check against the [official Jackson 3 release notes](https://github.com/FasterXML/jackson/wiki/Jackson-Release-3.0).
 
 ## TL;DR
 
